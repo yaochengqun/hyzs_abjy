@@ -1,0 +1,32 @@
+h3{
+	text-align: center;
+	color:#333;
+	font-size:22px;
+	margin-top:30px;
+}
+.condition{
+	width:90%;
+	margin:auto;
+	margin-top:30px;
+}
+.condition td{
+	height:40px;
+	line-height: 40px;
+}
+.condition select{
+	width:80px;
+}
+.condition input[type=button]{
+	width:150px;
+	border:1px solid black;
+	border-radius: 5px;
+}
+
+.userList{
+	width:100%;
+	border:1px solid #999;
+	border-collapse: collapse;
+}
+.userList td,.userList th{
+	border:1px solid #999;
+}
