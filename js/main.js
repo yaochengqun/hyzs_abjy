@@ -6,6 +6,12 @@ $(function() {
 		// console.log($(e.target).parent());
 		$(e.target).parent().addClass("active");
 	});
+	$(".section-aside h3").click(function(){//侧边栏点击h3去掉所有li的active类
+		$(".section-aside li").removeClass('active');
+	});
+	$(".section-aside .userManage").click(function(){//侧边栏点击用户管理，跳转到userManage.html
+		$("iframe").attr("src","userManage.html");
+	});
 	$("#search-btn").click(function(){
 		var company = $("#company-name").val();
 		var sendUrl = '';//用于存储要请求的url

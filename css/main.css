@@ -102,15 +102,15 @@
 	padding:5px;
 	border:none;
 }
-.section-aside #accordion #menu{
+.section-aside #accordion .menu{
 	background-color:rgb(50,71,102);
 	border:none;
 }
-.section-aside #menu li:hover{
+.section-aside .menu li:hover{
 	background-image:url(../images/pic_8.png);
 	background-repeat: no-repeat;
 }
-.section-aside #menu a{
+.section-aside .menu a{
 	display:block;
 	width:100%;
 	height:40px;
@@ -121,19 +121,19 @@
 	background-repeat: no-repeat;
 	background-position: left 15px center;
 }
-.section-aside #menu .store{
+.section-aside .menu .store{
 	background-image:url(../images/icon_2.png);
 }
-.section-aside #menu .goods{
+.section-aside .menu .goods{
 	background-image:url(../images/icon_3.png);
 }
-.section-aside #menu .order{
+.section-aside .menu .order{
 	background-image:url(../images/icon_4.png);
 }
-.section-aside #menu .announcement{
+.section-aside .menu .announcement{
 	background-image:url(../images/icon_5.png);
 }
-.section-aside #menu a:hover{
+.section-aside .menu a:hover{
 	text-decoration: none;
 	border:none;
 }
