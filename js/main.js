@@ -75,13 +75,13 @@ $(function() {
 $(".addUser").click(function(){
 	$("iframe").attr({"src":"addUser.html"});
 });
-//切换到商品管理
+//切换到用户管理入驻审核
 $(".userReview").click(function(){
 	$("iframe").attr({"src":"userReview.html"});
 });
-//切换到订单管理
-$(".order").click(function(){
-	$("iframe").attr({"src":"orderManage.html"});
+//切换到公司管理
+$(".companyManage").click(function(){
+	$("iframe").attr({"src":"companyManage.html"});
 });
 //切换到发布公告
 $(".announcement").click(function(){
