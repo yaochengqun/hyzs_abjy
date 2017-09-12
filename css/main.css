@@ -121,10 +121,10 @@
 	background-repeat: no-repeat;
 	background-position: left 15px center;
 }
-.section-aside .menu .store{
+.section-aside .menu .addUser{
 	background-image:url(../images/icon_2.png);
 }
-.section-aside .menu .goods{
+.section-aside .menu .userReview{
 	background-image:url(../images/icon_3.png);
 }
 .section-aside .menu .order{

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加用户</title>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/addUser.css">
+</head>
+<body>
+	<input type="button" value="批量导入" class="bulkImport">
+	<h3>单个添加</h3>
+	<form>
+		<h4>基本信息</h4>
+		<table>
+			<tr>
+				<td>* 注册名</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>* 所在安保公司</td>
+				<td>
+					<input type="text">
+					<input type="button" class="addBtn">
+				</td>
+				<td>籍贯</td>
+				<td>
+					<input type="text">
+				</td>
+				<td rowspan="8" class="imgTd">
+					<img src="" alt="头像图片">
+					<br>
+					<input type="button" value="上传头像">
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;昵称</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>&nbsp;&nbsp;身高（CM）</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>学历</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>* 真实姓名</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>&nbsp;&nbsp;体重（KG）</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>紧急联系人</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>* 性别</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>&nbsp;&nbsp;个性签名</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>紧急联系人电话</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>* 出生年月</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>&nbsp;&nbsp;目前职位</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>居住小区</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>* 年龄</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>&nbsp;&nbsp;是否服过兵役</td>
+				<td>
+					<select name="" id="">
+						<option value=""></option>
+						<option value="">是</option>
+						<option value="">否</option>
+					</select>
+				</td>
+				<td>工作小区</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>* 手机号</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>&nbsp;&nbsp;技能标签</td>
+				<td>
+					<input type="text">
+				</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;婚姻状态</td>
+				<td>
+					<select name="" id="">
+						<option value=""></option>
+						<option value="">已婚</option>
+						<option value="">未婚</option>
+						<option value="">离异</option>
+						<option value="">丧偶</option>
+					</select>
+				</td>
+				<td>* 身份证号</td>
+				<td>
+					<input type="text">
+				</td>
+				<td>身份证</td>
+				<td>
+					<a href="">正面</a>
+					<a href="">背面</a>
+				</td>
+			</tr>
+		</table>
+		<h4>保安信息</h4>
+		<h5>项目经历：</h5>
+		<textarea name="" id="" cols="30" rows="10"></textarea>
+		<h5>公司履历：</h5>
+		<textarea name="" id="" cols="30" rows="10"></textarea>
+		<h4>个人风采</h4>
+		<div>
+			<img src="" alt="">
+			<input type="button" value="上传照片">
+		</div>
+		<textarea name="" id="" cols="30" rows="10" placeholder="添加描述"></textarea>
+		<br>
+		<input type="button" class="addBtn">
+		<span>再添加一个</span>
+		<br>
+		<input type="button" value="完成添加" class="addCompleteBtn">
+	</form>
+	<script src="../js/addUser.js"></script>
+</body>
+</html>

@@ -22,11 +22,17 @@ h3{
 	border-radius: 5px;
 }
 
+.listBox{
+	height:250px;
+	overflow-y:auto;
+}
 .userList{
 	width:100%;
 	border:1px solid #999;
 	border-collapse: collapse;
+	margin-top:20px;
 }
 .userList td,.userList th{
 	border:1px solid #999;
+	text-align: center;
 }

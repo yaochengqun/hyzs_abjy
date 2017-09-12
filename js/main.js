@@ -71,13 +71,13 @@ $(function() {
 	});
 });
 
-//切换到店铺管理
-$(".store").click(function(){
-	$("iframe").attr({"src":"storeManage.html"});
+//切换到添加用户
+$(".addUser").click(function(){
+	$("iframe").attr({"src":"addUser.html"});
 });
 //切换到商品管理
-$(".goods").click(function(){
-	$("iframe").attr({"src":"goodsManage.html"});
+$(".userReview").click(function(){
+	$("iframe").attr({"src":"userReview.html"});
 });
 //切换到订单管理
 $(".order").click(function(){
