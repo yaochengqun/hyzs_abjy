@@ -12,12 +12,12 @@
 	<div class="contentBox">
 		<h4>选择业务类型</h4>
 		<input type="text">
-		<input type="button">
+		<input type="button" class="typeBtn">
 		<h4>总体业务说明</h4>
 		<textarea name="" id="" cols="30" rows="10" placeholder="此业务适合公司高管、商务、明星、珠宝商人等高端人士押送贵重物品、保密文件等"></textarea>
 		<h4>安保公司</h4>
 		<input type="text">
-		<input type="button">
+		<input type="button" class="companyBtn">
 		<h4>公司业务相关说明</h4>
 		<textarea name="" id="" cols="30" rows="10"></textarea>
 		<h4>具体价格</h4>
@@ -127,9 +127,35 @@
 		<img src="" alt="">
 		<input type="button" value="修改">
 		<h4>业务合同</h4>
-		<input type="button">上传合同
+		<input type="button" class="uploadContractBtn">上传合同
 		<br><br>
-		<input type="button" value="添加完成">
+		<input type="button" value="添加完成" class="addCompleteBtn">
+	</div>
+	<div class="secTypeBox">
+		<h3>请选择业务类型</h3>
+		<div class="allTypeInfo">
+			<table>
+				<tr>
+					<th>业务类型</th>
+					<th>请选择</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="secCompanyBox">
+		<h3>请选择安保公司</h3>
+		<div class="searchBox">
+			<input type="text" placeholder="请输入要搜索的公司名称" class="cName">
+			<input type="button" class="sBtn">
+		</div>
+		<div class="allCompanyInfo">
+			<table>
+				<tr>
+					<th>安保公司</th>
+					<th>请选择</th>
+				</tr>
+			</table>
+		</div>
 	</div>
 	<script src="../js/addProduct.js"></script>
 </body>

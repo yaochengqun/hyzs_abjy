@@ -102,4 +102,20 @@ $(".productDetails").click(function(){
 $(".addProduct").click(function(){
 	$("iframe").attr({"src":"addProduct.html"});
 });
+//切换到结算系统
+$(".balanceSystem").click(function(){
+	$("iframe").attr({"src":"balanceSystem.html"});
+});
+//切换到安防知识
+$(".securityKnowledge").click(function(){
+	$("iframe").attr({"src":"securityKnowledge.html"});
+});
+//切换到保安风采
+$(".securityMien").click(function(){
+	$("iframe").attr({"src":"securityMien.html"});
+});
+//切换到英雄之家
+$(".heroHome").click(function(){
+	$("iframe").attr({"src":"heroHome.html"});
+});
 

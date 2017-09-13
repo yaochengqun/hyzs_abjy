@@ -8,9 +8,84 @@ h3{
 	width:80%;
 	height:450px;
 	margin:30px auto 0;
-	border:1px solid red;
 	overflow-y: auto;
+}
+.contentBox h4{
+	margin:10px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+.contentBox>textarea{
+	width:90%;
+	height:100px;
+	resize: none;
+}
+.typeBtn,.companyBtn,.uploadContractBtn{
+	width:18px;
+	height:18px;
+	border:2px solid #333;
+	background-image: url(../images/add_btn.png);
+	background-size:14px;
+	border-radius: 2px;
 }
 .contentBox table{
 	width:100%;
+	border:1px solid #999;
+	border-collapse: collapse;
+}
+.contentBox table td,.contentBox table th{
+	border:1px solid #999;
+	text-align: center;
+	padding:5px 0;
+}
+.contentBox table input{
+	width:70%;
+}
+.contentBox table textarea{
+	width:70%;
+	height:80px;
+	resize: none;
+}
+.contentBox table td:last-child input{
+	width:40px;
+}
+.addCompleteBtn{
+	width:150px;
+	height:40px;
+	float:right;
+	background-color: rgb(22,155,213);
+	color:white;
+	border:none;
+	border-radius:5px;
+	margin-right: 30px;
+}
+
+.searchBox{
+	margin-top:30px;
+	text-align: center;
+}
+.secTypeBox,.secCompanyBox{
+	width:280px;
+	height:400px;
+	border:1px solid #999;
+	box-shadow: 5px 5px 5px #999;
+	background-color: white;
+	position:absolute;
+	left:40%;
+	top:20%;
+	display:none;
+}
+.secTypeBox .allTypeInfo,.secCompanyBox .allCompanyInfo{
+	width:95%;
+	height:260px;
+	margin:10px auto;
+	overflow-y: auto;
+}
+.secTypeBox .allTypeInfo table,.secCompanyBox .allCompanyInfo table{
+	width:100%;
+	border:1px solid #999;
+	border-collapse: collapse;
+}
+.secTypeBox .allTypeInfo table th,.secTypeBox .allTypeInfo table td,.secCompanyBox .allCompanyInfo table td,.secCompanyBox .allCompanyInfo table th{
+	border:1px solid #999;
 }
