@@ -1,5 +1,8 @@
 $(function() {
-	$( "#accordion" ).accordion();//折叠面板
+	$( "#accordion" ).accordion({
+		heightStyle:"content"
+	});//折叠面板
+	// $("#pManageMenu").menu();
 	$(".section-aside li").click(function(e){//section-aside点击添加背景
 		$(".section-aside li").removeClass('active');
 		// console.log(e.target);
@@ -90,5 +93,13 @@ $(".companyDetails").click(function(){
 //切换到商品管理
 $(".productManage").click(function(){
 	$("iframe").attr({"src":"productManage.html"});
+});
+//切换到商品详情
+$(".productDetails").click(function(){
+	$("iframe").attr({"src":"productDetails.html"});
+});
+//切换到添加商品
+$(".addProduct").click(function(){
+	$("iframe").attr({"src":"addProduct.html"});
 });
 

@@ -137,6 +137,9 @@
 	text-decoration: none;
 	border:none;
 }
+#pManageMenu a,#oManageMenu a{
+	padding-left: 60px;
+}
 
 iframe{
 	width:95%;

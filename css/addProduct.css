@@ -1,0 +1,16 @@
+h3{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+}
+.contentBox{
+	width:80%;
+	height:450px;
+	margin:30px auto 0;
+	border:1px solid red;
+	overflow-y: auto;
+}
+.contentBox table{
+	width:100%;
+}

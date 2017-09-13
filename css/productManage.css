@@ -4,8 +4,42 @@ h3{
 	text-align: center;
 	margin-top: 30px;
 }
-
-
+.proSearchBox{
+	text-align: center;
+	margin:30px 0;
+	line-height: 30px;
+}
+.typeBtn,.companyBtn{
+	width:18px;
+	height:18px;
+	border:2px solid #333;
+	background-image: url(../images/add_btn.png);
+	background-size:14px;
+	border-radius: 2px;
+}
+.proSearchBtn{
+	width:120px;
+	height:30px;
+	border:1px solid #999;
+	border-radius: 5px;
+	margin-top: 20px;
+	cursor:pointer;
+}
+.resList{
+	width:800px;
+	height:320px;
+	margin:auto;
+	overflow-y: auto;
+}
+.resList table{
+	width:100%;
+	border:1px solid #999;
+	border-collapse: collapse;
+}
+.resList table th,.resList table td{
+	border:1px solid #999;
+	text-align: center;
+}
 
 .searchBox{
 	margin-top:30px;
@@ -20,7 +54,7 @@ h3{
 	position:absolute;
 	left:40%;
 	top:20%;
-	/*display:none;*/
+	display:none;
 }
 .secTypeBox .allTypeInfo,.secCompanyBox .allCompanyInfo{
 	width:95%;
