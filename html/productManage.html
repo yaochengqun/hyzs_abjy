@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品管理</title>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/productManage.css">
+</head>
+<body>
+	<h3>搜索商品</h3>
+	<div class="proSearchBox">
+		业务类型<input type="text" class="serviceType">
+		<input type="button" class="typeBtn">
+		<br>
+		安保公司<input type="text" class="securityCompany">
+		<input type="button" class="companyBtn">
+		<br>
+		<input type="button" value="搜索">
+	</div>
+	<div class="resList">
+		<table>
+			<tr>
+				<th>业务类型</th>
+				<th>安保公司</th>
+				<th>查看详情</th>
+				<th>删除</th>
+			</tr>
+			<tr>
+				<td>保安护送</td>
+				<td>爱我家园安保公司</td>
+				<td>
+					<a href="">查看</a>
+				</td>
+				<td>
+					<a href="">删除</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="secTypeBox">
+		<h3>请选择业务类型</h3>
+		<div class="allTypeInfo">
+			<table>
+				<tr>
+					<th>业务类型</th>
+					<th>请选择</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="secCompanyBox">
+		<h3>请选择安保公司</h3>
+		<div class="searchBox">
+			<input type="text" placeholder="请输入要搜索的公司名称" class="cName">
+			<input type="button" class="sBtn">
+		</div>
+		<div class="allCompanyInfo">
+			<table>
+				<tr>
+					<th>安保公司</th>
+					<th>请选择</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script src="../js/productManage.js"></script>
+</body>
+</html>

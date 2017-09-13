@@ -83,8 +83,12 @@ $(".userReview").click(function(){
 $(".companyManage").click(function(){
 	$("iframe").attr({"src":"companyManage.html"});
 });
-//切换到发布公告
-$(".announcement").click(function(){
-	$("iframe").attr({"src":"announcement.html"});
+//切换到公司详情
+$(".companyDetails").click(function(){
+	$("iframe").attr({"src":"companyDetails.html"});
+});
+//切换到商品管理
+$(".productManage").click(function(){
+	$("iframe").attr({"src":"productManage.html"});
 });
 

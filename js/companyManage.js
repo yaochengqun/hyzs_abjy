@@ -1,0 +1,16 @@
+$(function(){
+	$(".companySearchBtn").click(function(){
+		if($(".companyName").val()==""){
+			$(".allCompany").css("display","block");
+		}else{
+			//ajax
+		}
+	});
+	$(".sBtn").click(function(){
+		if($(".cName").val()==""){
+			alert("请输入公司名称！");
+		}else{
+			//ajax
+		}
+	});
+})

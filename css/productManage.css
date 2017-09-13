@@ -4,27 +4,14 @@ h3{
 	text-align: center;
 	margin-top: 30px;
 }
+
+
+
 .searchBox{
 	margin-top:30px;
 	text-align: center;
 }
-.companyInfo{
-	width:800px;
-	height:400px;
-	margin:30px auto;
-	overflow-y: auto;
-}
-.companyInfo table{
-	width:100%;
-	border:1px solid #999;
-	border-collapse: collapse;
-}
-.companyInfo td,.companyInfo th{
-	border:1px solid #999;
-	text-align: center;
-}
-
-.allCompany{
+.secTypeBox,.secCompanyBox{
 	width:280px;
 	height:400px;
 	border:1px solid #999;
@@ -33,19 +20,19 @@ h3{
 	position:absolute;
 	left:40%;
 	top:20%;
-	display:none;
+	/*display:none;*/
 }
-.allCompany .allCompanyInfo{
+.secTypeBox .allTypeInfo,.secCompanyBox .allCompanyInfo{
 	width:95%;
 	height:260px;
 	margin:10px auto;
 	overflow-y: auto;
 }
-.allCompany .allCompanyInfo table{
+.secTypeBox .allTypeInfo table,.secCompanyBox .allCompanyInfo table{
 	width:100%;
 	border:1px solid #999;
 	border-collapse: collapse;
 }
-.allCompany .allCompanyInfo table th,.allCompany .allCompanyInfo table td{
+.secTypeBox .allTypeInfo table th,.secTypeBox .allTypeInfo table td,.secCompanyBox .allCompanyInfo table td,.secCompanyBox .allCompanyInfo table th{
 	border:1px solid #999;
 }
